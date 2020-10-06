@@ -1,0 +1,161 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Sun Nov 10 17:38:45 2019
+# Process ID: 5756
+# Current directory: E:/1sem/VIVADO/project_7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6980 E:\1sem\VIVADO\project_7\project_7.xpr
+# Log file: E:/1sem/VIVADO/project_7/vivado.log
+# Journal file: E:/1sem/VIVADO/project_7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/1sem/VIVADO/project_7/project_7.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source ASYNUDTB.tcl
+close_sim
+launch_simulation
+source ASYNUDTB.tcl
+close_sim
+launch_simulation
+source ASYNUDTB.tcl
+close_sim
+launch_simulation
+source ASYNUDTB.tcl
+close_sim
+launch_simulation
+source ASYNUDTB.tcl
+close_sim
+launch_simulation
+source ASYNUDTB.tcl
+close_sim
+launch_simulation
+source ASYNUDTB.tcl
+close_sim
+close_project
+create_project project_8 E:/1sem/VIVADO/project_8 -part xc7k70tfbv676-1
+file mkdir E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new
+close [ open E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/BoothST.v w ]
+add_files E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/BoothST.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+close_project
+open_project E:/1sem/VIVADO/project_7/project_7.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source ASYNUDTB.tcl
+close_sim
+launch_simulation
+source ASYNUDTB.tcl
+close_sim
+launch_simulation
+source ASYNUDTB.tcl
+close_sim
+launch_simulation
+source ASYNUDTB.tcl
+close_sim
+close_project
+open_project E:/1sem/VIVADO/project_8/project_8.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+close [ open E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/BoothB.v w ]
+add_files E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/BoothB.v
+update_compile_order -fileset sources_1
+close_project
+open_project E:/1sem/VIVADO/project_7/project_7.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project E:/1sem/VIVADO/project_8/project_8.xpr
+update_compile_order -fileset sources_1
+file mkdir E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/BoothTB.v w ]
+add_files -fileset sim_1 E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/BoothTB.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source BoothTB.tcl
+close_sim
+launch_simulation
+source BoothTB.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top BoothB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source BoothB.tcl
+add_force {/BoothB/A} -radix hex {3 0ns}
+add_force {/BoothB/B} -radix hex {4 0ns}
+run all
+close_sim
+launch_simulation
+source BoothB.tcl
+add_force {/BoothB/A} -radix hex {3 0ns}
+add_force {/BoothB/B} -radix hex {4 0ns}
+run all
+close_sim
+launch_simulation
+source BoothB.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top BoothTB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+current_sim simulation_13
+close_sim
+launch_simulation
+source BoothTB.tcl
+close_sim
+launch_simulation
+source BoothTB.tcl
+close_sim
+launch_simulation
+source BoothTB.tcl
+close_sim
+launch_simulation
+source BoothTB.tcl
+close_sim
+launch_simulation
+source BoothTB.tcl
+close_sim
+launch_simulation
+source BoothTB.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top BoothB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+current_sim simulation_16
+close_sim
+launch_simulation
+source BoothB.tcl
+add_force {/BoothB/A} -radix hex {5 0ns}
+add_force {/BoothB/B} -radix hex {8 0ns}
+run all
+close_sim
+launch_simulation
+source BoothB.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top BoothTB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+current_sim simulation_22
+close_sim
+launch_simulation
+source BoothTB.tcl
+close_sim
+close_sim

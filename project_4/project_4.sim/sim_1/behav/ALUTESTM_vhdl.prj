@@ -1,0 +1,18 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../project_4.srcs/sources_1/new/xor_gate.vhd"
+vhdl xil_defaultlib  "../../../project_4.srcs/sources_1/new/and_gate.vhd"
+vhdl xil_defaultlib  "../../../project_4.srcs/sources_1/new/or_gate.vhd"
+vhdl xil_defaultlib  "../../../project_4.srcs/sources_1/new/Mux21.vhd"
+vhdl xil_defaultlib  "../../../../project_1/project_1.srcs/sources_1/new/HAS.vhd"
+vhdl xil_defaultlib  "../../../../project_1/project_1.srcs/sources_1/new/xor_gate_array.vhd"
+vhdl xil_defaultlib  "../../../../project_1/project_1.srcs/sources_1/new/or_gate_array.vhd"
+vhdl xil_defaultlib  "../../../project_4.srcs/sources_1/new/Mux41.vhd"
+vhdl xil_defaultlib  "../../../project_4.srcs/sources_1/new/Inv_array.vhd"
+vhdl xil_defaultlib  "../../../../project_1/project_1.srcs/sources_1/new/FABYHA.vhd"
+vhdl xil_defaultlib  "../../../project_4.srcs/sources_1/new/BS.vhd"
+vhdl xil_defaultlib  "../../../project_4.srcs/sources_1/new/and_gate_array.vhd"
+vhdl xil_defaultlib  "../../../project_4.srcs/sources_1/new/ALUSTR.vhd"
+vhdl xil_defaultlib  "../../../project_4.srcs/sim_1/new/ALUTESTM.vhd"
+
+# Do not sort compile order
+nosort

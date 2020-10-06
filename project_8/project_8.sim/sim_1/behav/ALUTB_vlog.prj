@@ -1,0 +1,27 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../project_8.srcs/sources_1/new/mux21.v"
+verilog xil_defaultlib  "../../../project_8.srcs/sources_1/new/mux41.v"
+verilog xil_defaultlib  "../../../project_8.srcs/sources_1/new/sum.v"
+verilog xil_defaultlib  "../../../project_8.srcs/sources_1/new/right.v"
+verilog xil_defaultlib  "../../../project_8.srcs/sources_1/new/mux16to1.v"
+verilog xil_defaultlib  "../../../project_8.srcs/sources_1/new/mul.v"
+verilog xil_defaultlib  "../../../project_8.srcs/sources_1/new/mod.v"
+verilog xil_defaultlib  "../../../project_8.srcs/sources_1/new/lxor.v"
+verilog xil_defaultlib  "../../../project_8.srcs/sources_1/new/lxnor.v"
+verilog xil_defaultlib  "../../../project_8.srcs/sources_1/new/lor.v"
+verilog xil_defaultlib  "../../../project_8.srcs/sources_1/new/lnor.v"
+verilog xil_defaultlib  "../../../project_8.srcs/sources_1/new/lnand.v"
+verilog xil_defaultlib  "../../../project_8.srcs/sources_1/new/left.v"
+verilog xil_defaultlib  "../../../project_8.srcs/sources_1/new/land.v"
+verilog xil_defaultlib  "../../../project_8.srcs/sources_1/new/inc.v"
+verilog xil_defaultlib  "../../../project_8.srcs/sources_1/new/exp.v"
+verilog xil_defaultlib  "../../../project_8.srcs/sources_1/new/div.v"
+verilog xil_defaultlib  "../../../project_8.srcs/sources_1/new/dif.v"
+verilog xil_defaultlib  "../../../project_8.srcs/sources_1/new/ALUST.v"
+verilog xil_defaultlib  "../../../project_8.srcs/sim_1/new/ALUTB.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

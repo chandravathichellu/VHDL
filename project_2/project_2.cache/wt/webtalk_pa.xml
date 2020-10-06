@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Sat Nov 16 21:35:48 2019">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="b1e96816760a4c3f88bd17e7100873f7" type="ProjectID"/>
+<property name="ProjectIteration" value="2" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="39" type="JavaHandler"/>
+<property name="CloseProject" value="6" type="JavaHandler"/>
+<property name="EditDelete" value="1" type="JavaHandler"/>
+<property name="EditRedo" value="1" type="JavaHandler"/>
+<property name="EditUndo" value="5" type="JavaHandler"/>
+<property name="FlipToViewTaskRTLAnalysis" value="1" type="JavaHandler"/>
+<property name="NewProject" value="2" type="JavaHandler"/>
+<property name="OpenProject" value="25" type="JavaHandler"/>
+<property name="RunImplementation" value="1" type="JavaHandler"/>
+<property name="RunSynthesis" value="3" type="JavaHandler"/>
+<property name="SaveFileProxyHandler" value="1" type="JavaHandler"/>
+<property name="SetTopNode" value="43" type="JavaHandler"/>
+<property name="ShowView" value="11" type="JavaHandler"/>
+<property name="SimulationClose" value="124" type="JavaHandler"/>
+<property name="SimulationRun" value="199" type="JavaHandler"/>
+<property name="SimulationRunAll" value="4" type="JavaHandler"/>
+<property name="ViewTaskRTLAnalysis" value="1" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="CANCEL, Cancel" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_NEW_PROJECT, New Project..." value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_OPEN_PROJECT, Open Project..." value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_0_CRITICAL_WARNING, 2 critical warnings" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, ASYUPB - Behavioral (ASYUPB.vhd" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, SNUDST - Behavioral (SNUDST.vhd" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, SYNUDB - Behavioral (SYNUDB.vhd" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, SYNUPB - Behavioral (SYNUPB.vhd" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Syntax Error Files, signalve.vhd], 2, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Syntax Error Files], 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, WashingMachine - Behavioral (WashingMachine.vhd" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, signalve - Behavioral (signalve.vhd" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, WashingTest - Behavioral (WashingTest.vhd" value="4" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 19" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 8" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 18" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 7" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_OPEN_PROJECT, Open Project" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_FILE, File" value="10" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, Open Recent Project" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 111, 419" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 134, 142" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 135, 431" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 137, 424" value="2" type="GuiResourceData"/>
+<property name="signalve.vhd, 137, 457" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 151, 446" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 16, 413" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 167, 429" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 169, 403" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 173, 205" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 182, 182" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 183, 420" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 20, 422" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 207, 115" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 22, 394" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 22, 449" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 237, 115" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 24, 435" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 255, 451" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 259, 408" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 274, 209" value="2" type="GuiResourceData"/>
+<property name="signalve.vhd, 298, 377" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 300, 392" value="2" type="GuiResourceData"/>
+<property name="signalve.vhd, 308, 373" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 313, 363" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 33, 195" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 33, 415" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 335, 351" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 359, 287" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 40, 396" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 41, 196" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 42, 413" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 428, 153" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 43, 402" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 47, 436" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 48, 402" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 489, 412" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 49, 435" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 51, 434" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 56, 399" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 65, 436" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 67, 435" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 68, 402" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 69, 415" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 817, 328" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 817, 329, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 82, 419" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 88, 432" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 90, 423" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 90, 454" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 91, 451" value="1" type="GuiResourceData"/>
+<property name="signalve.vhd, 98, 441" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="64" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="57" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

@@ -1,0 +1,42 @@
+Exception at PC 0x000007F9DEBFAEA8
+Unable to capture context for thread 7080 in process 320, can not generate back trace
+Unable to capture context for thread 3816 in process 320, can not generate back trace
+Unable to capture context for thread 4716 in process 320, can not generate back trace
+Exception at PC 0x000007F9835BBB93
+Printing stacktrace...
+
+Unable to capture context for thread 7080 in process 320, can not generate back trace
+Unable to capture context for thread 3816 in process 320, can not generate back trace
+Unable to capture context for thread 4716 in process 320, can not generate back trace
+Exception at PC 0x000007F9DEBFAEA8
+Exception at PC 0x000007F9DEBFAEA8
+Exception at PC 0x000007F9DEBFAEA8
+Exception at PC 0x000007F9DEBFAEA8
+Exception at PC 0x000007F9DEBFAEA8
+Exception at PC 0x000007F9DEBFAEA8
+Exception at PC 0x000007F9DEBFAEA8
+Exception at PC 0x000007F9DEBFAEA8
+Exception at PC 0x000007F9DEBFAEA8
+Exception at PC 0x000007F9DEBFAEA8
+Exception at PC 0x000007F9DEBFAEA8
+Exception at PC 0x000007F9DEBFAEA8
+Exception at PC 0x000007F9DEBFAEA8
+Exception at PC 0x000007F9DEBFAEA8
+Exception at PC 0x000007F9DEBFAEA8
+Exception at PC 0x000007F9DEBFAEA8
+Exception at PC 0x000007F9DEBFAEA8
+[0]  [0x000007F9835BBB93]
+[1]  [0x000007F9835BBB93]
+[2]  [0x000007F9835BB4A1]
+[3]  [0x000007F9835BB3EF]
+[4]  [0x000007F9835A19FE]
+[5]  [0x000007F9835A0ED1]
+[6]  [0x000007F9835A0D76]
+[7]  [0x000007F9835479F6]
+[8]  [0x000007F983537AFB]
+[9]  [0x000007F98365E90A]
+[10]  [0x000007F983679F87]
+[11]  [0x000007F98367A05F]
+[12] (BaseThreadInitThunk+0x1a) [0x000007F9E0201842]
+[13] (RtlUserThreadStart+0x21) [0x000007F9E19CDF11]
+Done

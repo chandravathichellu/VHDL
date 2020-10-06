@@ -1,0 +1,1767 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Sun Nov 10 17:38:45 2019
+# Process ID: 5756
+# Current directory: E:/1sem/VIVADO/project_7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6980 E:\1sem\VIVADO\project_7\project_7.xpr
+# Log file: E:/1sem/VIVADO/project_7/vivado.log
+# Journal file: E:/1sem/VIVADO/project_7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/1sem/VIVADO/project_7/project_7.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 700.785 ; gain = 120.090
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ASYNUDTB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav'
+"xvlog -m64 --relax -prj ASYNUDTB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.srcs/sources_1/new/ASYNUDB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ASYNUDB
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.srcs/sim_1/new/ASYNUDTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ASYNUDTB
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 3cc1704702ae4d92952a41e33915d1c4 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ASYNUDTB_behav xil_defaultlib.ASYNUDTB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ASYNUDB
+Compiling module xil_defaultlib.ASYNUDTB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ASYNUDTB_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav/xsim.dir/ASYNUDTB_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov 10 18:40:33 2019...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 721.656 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ASYNUDTB_behav -key {Behavioral:sim_1:Functional:ASYNUDTB} -tclbatch {ASYNUDTB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source ASYNUDTB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 210 ns : File "E:/1sem/VIVADO/project_7/project_7.srcs/sim_1/new/ASYNUDTB.v" Line 37
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ASYNUDTB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 721.656 ; gain = 0.406
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ASYNUDTB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav'
+"xvlog -m64 --relax -prj ASYNUDTB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.srcs/sources_1/new/ASYNUDB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ASYNUDB
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.srcs/sim_1/new/ASYNUDTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ASYNUDTB
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 3cc1704702ae4d92952a41e33915d1c4 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ASYNUDTB_behav xil_defaultlib.ASYNUDTB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ASYNUDB
+Compiling module xil_defaultlib.ASYNUDTB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ASYNUDTB_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav/xsim.dir/ASYNUDTB_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov 10 18:41:49 2019...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ASYNUDTB_behav -key {Behavioral:sim_1:Functional:ASYNUDTB} -tclbatch {ASYNUDTB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source ASYNUDTB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 210 ns : File "E:/1sem/VIVADO/project_7/project_7.srcs/sim_1/new/ASYNUDTB.v" Line 37
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ASYNUDTB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 737.391 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ASYNUDTB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav'
+"xvlog -m64 --relax -prj ASYNUDTB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.srcs/sources_1/new/ASYNUDB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ASYNUDB
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.srcs/sim_1/new/ASYNUDTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ASYNUDTB
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 3cc1704702ae4d92952a41e33915d1c4 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ASYNUDTB_behav xil_defaultlib.ASYNUDTB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ASYNUDB
+Compiling module xil_defaultlib.ASYNUDTB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ASYNUDTB_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav/xsim.dir/ASYNUDTB_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov 10 18:46:49 2019...
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ASYNUDTB_behav -key {Behavioral:sim_1:Functional:ASYNUDTB} -tclbatch {ASYNUDTB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source ASYNUDTB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 210 ns : File "E:/1sem/VIVADO/project_7/project_7.srcs/sim_1/new/ASYNUDTB.v" Line 37
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ASYNUDTB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 739.445 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ASYNUDTB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav'
+"xvlog -m64 --relax -prj ASYNUDTB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.srcs/sources_1/new/TFFNEW.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TFFNEW
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.srcs/sources_1/new/buffer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module buffer
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.srcs/sources_1/new/ASYNUDGEN.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ASYNUDGEN
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.srcs/sources_1/new/ASYNUDST.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ASYNUDST
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.srcs/sim_1/new/ASYNUDTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ASYNUDTB
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 3cc1704702ae4d92952a41e33915d1c4 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ASYNUDTB_behav xil_defaultlib.ASYNUDTB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.buffer
+Compiling module xil_defaultlib.TFFNEW
+Compiling module xil_defaultlib.ASYNUDGEN
+Compiling module xil_defaultlib.ASYNUDST_default
+Compiling module xil_defaultlib.ASYNUDTB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ASYNUDTB_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav/xsim.dir/ASYNUDTB_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov 10 18:50:02 2019...
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ASYNUDTB_behav -key {Behavioral:sim_1:Functional:ASYNUDTB} -tclbatch {ASYNUDTB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source ASYNUDTB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 210 ns : File "E:/1sem/VIVADO/project_7/project_7.srcs/sim_1/new/ASYNUDTB.v" Line 37
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ASYNUDTB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 740.828 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ASYNUDTB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav'
+"xvlog -m64 --relax -prj ASYNUDTB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.srcs/sources_1/new/TFFNEW.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TFFNEW
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.srcs/sources_1/new/buffer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module buffer
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.srcs/sources_1/new/ASYNUDGEN.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ASYNUDGEN
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.srcs/sources_1/new/ASYNUDST.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ASYNUDST
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.srcs/sim_1/new/ASYNUDTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ASYNUDTB
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 3cc1704702ae4d92952a41e33915d1c4 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ASYNUDTB_behav xil_defaultlib.ASYNUDTB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.buffer
+Compiling module xil_defaultlib.TFFNEW
+Compiling module xil_defaultlib.ASYNUDGEN
+Compiling module xil_defaultlib.ASYNUDST_default
+Compiling module xil_defaultlib.ASYNUDTB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ASYNUDTB_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav/xsim.dir/ASYNUDTB_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov 10 19:15:09 2019...
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ASYNUDTB_behav -key {Behavioral:sim_1:Functional:ASYNUDTB} -tclbatch {ASYNUDTB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source ASYNUDTB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 210 ns : File "E:/1sem/VIVADO/project_7/project_7.srcs/sim_1/new/ASYNUDTB.v" Line 37
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ASYNUDTB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 743.980 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ASYNUDTB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav'
+"xvlog -m64 --relax -prj ASYNUDTB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.srcs/sources_1/new/ASYNUDB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ASYNUDB
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.srcs/sim_1/new/ASYNUDTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ASYNUDTB
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 3cc1704702ae4d92952a41e33915d1c4 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ASYNUDTB_behav xil_defaultlib.ASYNUDTB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ASYNUDB
+Compiling module xil_defaultlib.ASYNUDTB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ASYNUDTB_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav/xsim.dir/ASYNUDTB_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov 10 19:16:24 2019...
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ASYNUDTB_behav -key {Behavioral:sim_1:Functional:ASYNUDTB} -tclbatch {ASYNUDTB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source ASYNUDTB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 210 ns : File "E:/1sem/VIVADO/project_7/project_7.srcs/sim_1/new/ASYNUDTB.v" Line 37
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ASYNUDTB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 745.590 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ASYNUDTB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav'
+"xvlog -m64 --relax -prj ASYNUDTB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.srcs/sources_1/new/ASYNUDB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ASYNUDB
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.srcs/sim_1/new/ASYNUDTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ASYNUDTB
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 3cc1704702ae4d92952a41e33915d1c4 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ASYNUDTB_behav xil_defaultlib.ASYNUDTB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ASYNUDB
+Compiling module xil_defaultlib.ASYNUDTB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ASYNUDTB_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav/xsim.dir/ASYNUDTB_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov 10 19:22:05 2019...
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ASYNUDTB_behav -key {Behavioral:sim_1:Functional:ASYNUDTB} -tclbatch {ASYNUDTB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source ASYNUDTB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 210 ns : File "E:/1sem/VIVADO/project_7/project_7.srcs/sim_1/new/ASYNUDTB.v" Line 37
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ASYNUDTB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 749.676 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+create_project project_8 E:/1sem/VIVADO/project_8 -part xc7k70tfbv676-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+file mkdir E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new
+close [ open E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/BoothST.v w ]
+add_files E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/BoothST.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+close_project
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source E:/1sem/VIVADO/project_8/project_8.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov 10 19:25:22 2019...
+open_project E:/1sem/VIVADO/project_7/project_7.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ASYNUDTB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav'
+"xvlog -m64 --relax -prj ASYNUDTB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.srcs/sources_1/new/ASYNUDB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ASYNUDB
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.srcs/sim_1/new/ASYNUDTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ASYNUDTB
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 3cc1704702ae4d92952a41e33915d1c4 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ASYNUDTB_behav xil_defaultlib.ASYNUDTB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ASYNUDB
+Compiling module xil_defaultlib.ASYNUDTB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ASYNUDTB_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav/xsim.dir/ASYNUDTB_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov 10 19:26:12 2019...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 753.352 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ASYNUDTB_behav -key {Behavioral:sim_1:Functional:ASYNUDTB} -tclbatch {ASYNUDTB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source ASYNUDTB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 210 ns : File "E:/1sem/VIVADO/project_7/project_7.srcs/sim_1/new/ASYNUDTB.v" Line 37
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ASYNUDTB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 753.352 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ASYNUDTB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav'
+"xvlog -m64 --relax -prj ASYNUDTB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.srcs/sources_1/new/ASYNUDB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ASYNUDB
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.srcs/sim_1/new/ASYNUDTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ASYNUDTB
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 3cc1704702ae4d92952a41e33915d1c4 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ASYNUDTB_behav xil_defaultlib.ASYNUDTB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ASYNUDB
+Compiling module xil_defaultlib.ASYNUDTB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ASYNUDTB_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav/xsim.dir/ASYNUDTB_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov 10 19:26:39 2019...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 753.352 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ASYNUDTB_behav -key {Behavioral:sim_1:Functional:ASYNUDTB} -tclbatch {ASYNUDTB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source ASYNUDTB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 210 ns : File "E:/1sem/VIVADO/project_7/project_7.srcs/sim_1/new/ASYNUDTB.v" Line 37
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ASYNUDTB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 753.352 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ASYNUDTB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav'
+"xvlog -m64 --relax -prj ASYNUDTB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.srcs/sources_1/new/TFFNEW.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TFFNEW
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.srcs/sources_1/new/buffer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module buffer
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.srcs/sources_1/new/ASYNUDGEN.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ASYNUDGEN
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.srcs/sources_1/new/ASYNUDST.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ASYNUDST
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.srcs/sim_1/new/ASYNUDTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ASYNUDTB
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 3cc1704702ae4d92952a41e33915d1c4 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ASYNUDTB_behav xil_defaultlib.ASYNUDTB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.buffer
+Compiling module xil_defaultlib.TFFNEW
+Compiling module xil_defaultlib.ASYNUDGEN
+Compiling module xil_defaultlib.ASYNUDST_default
+Compiling module xil_defaultlib.ASYNUDTB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ASYNUDTB_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav/xsim.dir/ASYNUDTB_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov 10 19:27:06 2019...
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ASYNUDTB_behav -key {Behavioral:sim_1:Functional:ASYNUDTB} -tclbatch {ASYNUDTB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source ASYNUDTB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 210 ns : File "E:/1sem/VIVADO/project_7/project_7.srcs/sim_1/new/ASYNUDTB.v" Line 37
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ASYNUDTB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 758.699 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ASYNUDTB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav'
+"xvlog -m64 --relax -prj ASYNUDTB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.srcs/sources_1/new/TFFNEW.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TFFNEW
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.srcs/sources_1/new/buffer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module buffer
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.srcs/sources_1/new/ASYNUDGEN.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ASYNUDGEN
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.srcs/sources_1/new/ASYNUDST.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ASYNUDST
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.srcs/sim_1/new/ASYNUDTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ASYNUDTB
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 3cc1704702ae4d92952a41e33915d1c4 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ASYNUDTB_behav xil_defaultlib.ASYNUDTB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.buffer
+Compiling module xil_defaultlib.TFFNEW
+Compiling module xil_defaultlib.ASYNUDGEN
+Compiling module xil_defaultlib.ASYNUDST_default
+Compiling module xil_defaultlib.ASYNUDTB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ASYNUDTB_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav/xsim.dir/ASYNUDTB_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov 10 19:27:33 2019...
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/1sem/VIVADO/project_7/project_7.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ASYNUDTB_behav -key {Behavioral:sim_1:Functional:ASYNUDTB} -tclbatch {ASYNUDTB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source ASYNUDTB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 210 ns : File "E:/1sem/VIVADO/project_7/project_7.srcs/sim_1/new/ASYNUDTB.v" Line 37
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ASYNUDTB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 758.699 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+open_project E:/1sem/VIVADO/project_8/project_8.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+close [ open E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/BoothB.v w ]
+add_files E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/BoothB.v
+update_compile_order -fileset sources_1
+close_project
+open_project E:/1sem/VIVADO/project_7/project_7.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+update_compile_order -fileset sources_1
+close_project
+open_project E:/1sem/VIVADO/project_8/project_8.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+update_compile_order -fileset sources_1
+file mkdir E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/BoothTB.v w ]
+add_files -fileset sim_1 E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/BoothTB.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'BoothTB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+"xvlog -m64 --relax -prj BoothTB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/BoothB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BoothB
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/BoothTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BoothTB
+INFO: [VRFC 10-2458] undeclared symbol Z, assumed default net type wire [E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/BoothTB.v:26]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 7a954f10885e4036924162acd523c0e6 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot BoothTB_behav xil_defaultlib.BoothTB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port A [E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/BoothTB.v:26]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.BoothB
+Compiling module xil_defaultlib.BoothTB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot BoothTB_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/xsim.dir/BoothTB_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov 10 19:52:16 2019...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "BoothTB_behav -key {Behavioral:sim_1:Functional:BoothTB} -tclbatch {BoothTB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source BoothTB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 25 ns : File "E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/BoothTB.v" Line 33
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'BoothTB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 769.574 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'BoothTB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+"xvlog -m64 --relax -prj BoothTB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/BoothB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BoothB
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/BoothTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BoothTB
+INFO: [VRFC 10-2458] undeclared symbol Z, assumed default net type wire [E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/BoothTB.v:26]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 7a954f10885e4036924162acd523c0e6 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot BoothTB_behav xil_defaultlib.BoothTB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 8 for port z [E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/BoothTB.v:26]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.BoothB
+Compiling module xil_defaultlib.BoothTB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot BoothTB_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/xsim.dir/BoothTB_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov 10 19:53:01 2019...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "BoothTB_behav -key {Behavioral:sim_1:Functional:BoothTB} -tclbatch {BoothTB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source BoothTB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 25 ns : File "E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/BoothTB.v" Line 33
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'BoothTB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 769.574 ; gain = 0.000
+set_property top BoothB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/BoothTB_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'BoothB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+"xvlog -m64 --relax -prj BoothB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/BoothB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BoothB
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 7a954f10885e4036924162acd523c0e6 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot BoothB_behav xil_defaultlib.BoothB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.BoothB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot BoothB_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/xsim.dir/BoothB_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov 10 19:55:57 2019...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "BoothB_behav -key {Behavioral:sim_1:Functional:BoothB} -tclbatch {BoothB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source BoothB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'BoothB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 795.660 ; gain = 3.926
+add_force {/BoothB/A} -radix hex {3 0ns}
+add_force {/BoothB/B} -radix hex {4 0ns}
+run all
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/BoothTB_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'BoothB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+"xvlog -m64 --relax -prj BoothB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/BoothB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BoothB
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 7a954f10885e4036924162acd523c0e6 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot BoothB_behav xil_defaultlib.BoothB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.BoothB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot BoothB_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/xsim.dir/BoothB_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov 10 19:58:27 2019...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "BoothB_behav -key {Behavioral:sim_1:Functional:BoothB} -tclbatch {BoothB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source BoothB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'BoothB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 804.605 ; gain = 0.000
+add_force {/BoothB/A} -radix hex {3 0ns}
+add_force {/BoothB/B} -radix hex {4 0ns}
+run all
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/BoothTB_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'BoothB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+"xvlog -m64 --relax -prj BoothB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/BoothB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BoothB
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 7a954f10885e4036924162acd523c0e6 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot BoothB_behav xil_defaultlib.BoothB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.BoothB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot BoothB_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/xsim.dir/BoothB_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov 10 20:01:19 2019...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "BoothB_behav -key {Behavioral:sim_1:Functional:BoothB} -tclbatch {BoothB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source BoothB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'BoothB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 804.605 ; gain = 0.000
+set_property top BoothTB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+current_sim simulation_13
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/BoothB_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/BoothTB_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'BoothTB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+"xvlog -m64 --relax -prj BoothTB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/BoothB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BoothB
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/BoothTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BoothTB
+INFO: [VRFC 10-2458] undeclared symbol Z, assumed default net type wire [E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/BoothTB.v:26]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 7a954f10885e4036924162acd523c0e6 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot BoothTB_behav xil_defaultlib.BoothTB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 8 for port z [E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/BoothTB.v:26]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.BoothB
+Compiling module xil_defaultlib.BoothTB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot BoothTB_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/xsim.dir/BoothTB_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov 10 20:01:44 2019...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "BoothTB_behav -key {Behavioral:sim_1:Functional:BoothTB} -tclbatch {BoothTB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source BoothTB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 25 ns : File "E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/BoothTB.v" Line 33
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'BoothTB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 804.605 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/BoothB_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/BoothTB_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'BoothTB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+"xvlog -m64 --relax -prj BoothTB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/BoothB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BoothB
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/BoothTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BoothTB
+INFO: [VRFC 10-2458] undeclared symbol Z, assumed default net type wire [E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/BoothTB.v:26]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 7a954f10885e4036924162acd523c0e6 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot BoothTB_behav xil_defaultlib.BoothTB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 8 for port z [E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/BoothTB.v:26]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.BoothB
+Compiling module xil_defaultlib.BoothTB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot BoothTB_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/xsim.dir/BoothTB_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov 10 20:05:00 2019...
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "BoothTB_behav -key {Behavioral:sim_1:Functional:BoothTB} -tclbatch {BoothTB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source BoothTB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 25 ns : File "E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/BoothTB.v" Line 33
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'BoothTB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 804.605 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/BoothB_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/BoothTB_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'BoothTB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+"xvlog -m64 --relax -prj BoothTB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/BoothB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BoothB
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/BoothTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BoothTB
+INFO: [VRFC 10-2458] undeclared symbol Z, assumed default net type wire [E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/BoothTB.v:26]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 7a954f10885e4036924162acd523c0e6 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot BoothTB_behav xil_defaultlib.BoothTB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 8 for port z [E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/BoothTB.v:26]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.BoothB
+Compiling module xil_defaultlib.BoothTB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot BoothTB_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/xsim.dir/BoothTB_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov 10 20:06:46 2019...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "BoothTB_behav -key {Behavioral:sim_1:Functional:BoothTB} -tclbatch {BoothTB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source BoothTB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 25 ns : File "E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/BoothTB.v" Line 33
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'BoothTB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 804.605 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/BoothB_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/BoothTB_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'BoothTB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+"xvlog -m64 --relax -prj BoothTB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/BoothB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BoothB
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/BoothTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BoothTB
+INFO: [VRFC 10-2458] undeclared symbol Z, assumed default net type wire [E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/BoothTB.v:26]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 7a954f10885e4036924162acd523c0e6 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot BoothTB_behav xil_defaultlib.BoothTB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 8 for port z [E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/BoothTB.v:26]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.BoothB
+Compiling module xil_defaultlib.BoothTB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot BoothTB_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/xsim.dir/BoothTB_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov 10 20:08:10 2019...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "BoothTB_behav -key {Behavioral:sim_1:Functional:BoothTB} -tclbatch {BoothTB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source BoothTB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 25 ns : File "E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/BoothTB.v" Line 33
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'BoothTB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 814.758 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/BoothB_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/BoothTB_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'BoothTB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+"xvlog -m64 --relax -prj BoothTB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/BoothB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BoothB
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/BoothTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BoothTB
+INFO: [VRFC 10-2458] undeclared symbol Z, assumed default net type wire [E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/BoothTB.v:26]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 7a954f10885e4036924162acd523c0e6 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot BoothTB_behav xil_defaultlib.BoothTB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 8 for port z [E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/BoothTB.v:26]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.BoothB
+Compiling module xil_defaultlib.BoothTB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot BoothTB_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/xsim.dir/BoothTB_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov 10 20:10:32 2019...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "BoothTB_behav -key {Behavioral:sim_1:Functional:BoothTB} -tclbatch {BoothTB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source BoothTB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 25 ns : File "E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/BoothTB.v" Line 33
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'BoothTB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 814.758 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/BoothB_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/BoothTB_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'BoothTB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+"xvlog -m64 --relax -prj BoothTB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/BoothB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BoothB
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/BoothTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BoothTB
+INFO: [VRFC 10-2458] undeclared symbol Z, assumed default net type wire [E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/BoothTB.v:26]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 7a954f10885e4036924162acd523c0e6 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot BoothTB_behav xil_defaultlib.BoothTB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 8 for port z [E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/BoothTB.v:26]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.BoothB
+Compiling module xil_defaultlib.BoothTB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot BoothTB_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/xsim.dir/BoothTB_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov 10 20:16:30 2019...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "BoothTB_behav -key {Behavioral:sim_1:Functional:BoothTB} -tclbatch {BoothTB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source BoothTB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 25 ns : File "E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/BoothTB.v" Line 33
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'BoothTB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 814.758 ; gain = 0.000
+set_property top BoothB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+current_sim simulation_16
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/BoothB_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/BoothTB_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'BoothB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+"xvlog -m64 --relax -prj BoothB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/BoothB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BoothB
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 7a954f10885e4036924162acd523c0e6 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot BoothB_behav xil_defaultlib.BoothB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.BoothB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot BoothB_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/xsim.dir/BoothB_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov 10 20:17:33 2019...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "BoothB_behav -key {Behavioral:sim_1:Functional:BoothB} -tclbatch {BoothB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source BoothB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'BoothB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 814.758 ; gain = 0.000
+add_force {/BoothB/A} -radix hex {5 0ns}
+add_force {/BoothB/B} -radix hex {8 0ns}
+run all
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/BoothB_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/BoothTB_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'BoothB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+"xvlog -m64 --relax -prj BoothB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/BoothB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BoothB
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 7a954f10885e4036924162acd523c0e6 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot BoothB_behav xil_defaultlib.BoothB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.BoothB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot BoothB_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/xsim.dir/BoothB_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov 10 20:27:26 2019...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "BoothB_behav -key {Behavioral:sim_1:Functional:BoothB} -tclbatch {BoothB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source BoothB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'BoothB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 814.758 ; gain = 0.000
+set_property top BoothTB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+current_sim simulation_22
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/BoothB_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/BoothTB_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'BoothTB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+"xvlog -m64 --relax -prj BoothTB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/BoothB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BoothB
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/BoothTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BoothTB
+INFO: [VRFC 10-2458] undeclared symbol Z, assumed default net type wire [E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/BoothTB.v:26]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 7a954f10885e4036924162acd523c0e6 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot BoothTB_behav xil_defaultlib.BoothTB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 8 for port z [E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/BoothTB.v:26]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.BoothB
+Compiling module xil_defaultlib.BoothTB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot BoothTB_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/xsim.dir/BoothTB_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov 10 20:27:54 2019...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "BoothTB_behav -key {Behavioral:sim_1:Functional:BoothTB} -tclbatch {BoothTB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source BoothTB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 25 ns : File "E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/BoothTB.v" Line 33
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'BoothTB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 814.758 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 814.758 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 814.758 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Nov 10 23:57:20 2019...

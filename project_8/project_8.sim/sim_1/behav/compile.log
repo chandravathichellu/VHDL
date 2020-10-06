@@ -1,0 +1,42 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/mux21.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux21
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/mux41.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux41
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/sum.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sum
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/right.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module right
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/mux16to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux16to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/mul.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mul
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/mod.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mod
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/lxor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lxor
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/lxnor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lxnor
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/lor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lor
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/lnor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lnor
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/lnand.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lnand
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/left.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module left
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/land.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module land
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/inc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inc
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/exp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module exp
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/dif.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dif
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sources_1/new/ALUST.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUST
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.srcs/sim_1/new/ALUTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUTB
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/1sem/VIVADO/project_8/project_8.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

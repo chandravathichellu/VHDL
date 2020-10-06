@@ -1,0 +1,17 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../project_3.srcs/sources_1/new/DFFNEW.vhd"
+vhdl xil_defaultlib  "../../../project_3.srcs/sources_1/new/DFF.vhd"
+vhdl xil_defaultlib  "../../../project_3.srcs/sources_1/new/and_gate.vhd"
+vhdl xil_defaultlib  "../../../project_3.srcs/sources_1/new/USST.vhd"
+vhdl xil_defaultlib  "../../../project_3.srcs/sources_1/new/JSST.vhd"
+vhdl xil_defaultlib  "../../../project_3.srcs/sources_1/new/mux41.vhd"
+vhdl xil_defaultlib  "../../../project_3.srcs/sources_1/new/USBH.vhd"
+vhdl xil_defaultlib  "../../../project_3.srcs/sources_1/new/MONIKA.vhd"
+vhdl xil_defaultlib  "../../../project_3.srcs/sim_1/new/USTEST.vhd"
+vhdl xil_defaultlib  "../../../project_3.srcs/sim_1/new/JSTEST.vhd"
+vhdl xil_defaultlib  "../../../project_3.srcs/sim_1/new/DFFTEST.vhd"
+vhdl xil_defaultlib  "../../../project_3.srcs/sim_1/new/DFNEWTEST.vhd"
+vhdl xil_defaultlib  "../../../project_3.srcs/sim_1/new/muni.vhd"
+
+# Do not sort compile order
+nosort

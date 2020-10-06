@@ -1,0 +1,26 @@
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 27dfe66923dd43b0a40f38d02c13655f --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALUTESTM_behav xil_defaultlib.ALUTESTM -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.and_gate [and_gate_default]
+Compiling architecture behavioral of entity xil_defaultlib.or_gate [or_gate_default]
+Compiling architecture behavioral of entity xil_defaultlib.BS [bs_default]
+Compiling architecture behavioral of entity xil_defaultlib.xor_gate [xor_gate_default]
+Compiling architecture behavioral of entity xil_defaultlib.HAS [has_default]
+Compiling architecture behavioral of entity xil_defaultlib.FABYHA [fabyha_default]
+Compiling architecture behavioral of entity xil_defaultlib.and_gate_array [and_gate_array_default]
+Compiling architecture behavioral of entity xil_defaultlib.or_gate_array [or_gate_array_default]
+Compiling architecture behavioral of entity xil_defaultlib.xor_gate_array [xor_gate_array_default]
+Compiling architecture behavioral of entity xil_defaultlib.Inv_array [inv_array_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux21 [mux21_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux41 [mux41_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALUSTR [alustr_default]
+Compiling architecture behavioral of entity xil_defaultlib.alutestm
+Built simulation snapshot ALUTESTM_behav

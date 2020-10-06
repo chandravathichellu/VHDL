@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Tue Nov 19 10:51:41 2019">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="0d792be4fc9540b290c2dd15b8cb814b" type="ProjectID"/>
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="13" type="JavaHandler"/>
+<property name="CloseProject" value="2" type="JavaHandler"/>
+<property name="EditUndo" value="15" type="JavaHandler"/>
+<property name="NewProject" value="3" type="JavaHandler"/>
+<property name="OpenProject" value="13" type="JavaHandler"/>
+<property name="ProjectSettingsCmdHandler" value="1" type="JavaHandler"/>
+<property name="SaveFileProxyHandler" value="3" type="JavaHandler"/>
+<property name="SetTopNode" value="15" type="JavaHandler"/>
+<property name="SimulationClose" value="78" type="JavaHandler"/>
+<property name="SimulationRun" value="128" type="JavaHandler"/>
+<property name="SimulationRunAll" value="9" type="JavaHandler"/>
+<property name="SimulationRunForTime" value="1" type="JavaHandler"/>
+<property name="WaveformSaveConfiguration" value="1" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="FINISH, Finish" value="2" type="GuiResourceData"/>
+<property name="NEXT, Next " value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CmdMsgDialog_OK, OK" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, vendingmachinetb" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update" value="2" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SET_AS_TOP, Set as Top" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, Run Behavioral Simulation" value="6" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, TLC - traffic_light (TLC.vhd" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Vendingmachine (Vendingmachine.v" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, WashingMachine - Behavioral (WashingMachine.vhd" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, vendingmachinetb (vendingmachinetb.v" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, BoothTEst - Behavioral (BoothTEst.vhd" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, TLCTB - behavior (TLCTB.vhd" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, tlcnewtb - Behavioral (tlcnewtb.vhd" value="15" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 12" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 11" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager, Add Sources], 2, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Run Simulation], 11, false" value="7" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_FILE, File" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SimulationForceSettingsDialog_CANCEL_AFTER_TIME_OFFSET, 200ns" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SimulationForceSettingsDialog_FORCE_VALUE, (String" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SimulationForceSettingsDialog_LEADING_EDGE_VALUE, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SimulationForceSettingsDialog_PERIOD, 10ns" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SimulationForceSettingsDialog_TRAILING_EDGE_VALUE, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SimulationForceSettingsDialog_VALUE_RADIX, Binary, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SimulationForceSettingsDialog_VALUE_RADIX, Hexadecimal, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, sensor ; 0 ; Logic, 0, 0, 1, false, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcChooserPanel_CREATE_FILE, Create File" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy" value="2" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_CANCEL, Cancel" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="6" type="GuiResourceData"/>
+<property name="RDIResource.GraphicalView_ZOOM_FIT, Waveform Viewer_zoom_fit" value="4" type="GuiResourceData"/>
+<property name="RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, Don't show this dialog again, false" value="2" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 11, 98" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 118, 132" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 164, 129" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 164, 130" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 20, 63" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 27, 119" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 29, 127" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 40, 70" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 47, 69" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 70, 128" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 73, 128" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, clk], 1, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, clk], 1, false, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, sensor], 0, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, sensor], 0, false, false, false, false, true, false" value="2" type="GuiResourceData"/>
+<property name="TLC.vhd, 1, 198" value="1" type="GuiResourceData"/>
+<property name="TLC.vhd, 168, 496" value="1" type="GuiResourceData"/>
+<property name="TLC.vhd, 616, 245" value="1" type="GuiResourceData"/>
+<property name="TLC.vhd, 65, 506" value="1" type="GuiResourceData"/>
+<property name="TLC.vhd, 697, 320" value="1" type="GuiResourceData"/>
+<property name="TLCTB.vhd, 1, 116" value="1" type="GuiResourceData"/>
+<property name="TLCTB.vhd, 1016, 320" value="1" type="GuiResourceData"/>
+<property name="TLCTB.vhd, 666, 328" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 100, 139" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 108, 141" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 112, 64" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 115, 345" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 117, 92" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 122, 295" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 122, 352" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 124, 347" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 124, 365" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 124, 400" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 125, 280" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 125, 349" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 125, 379" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 125, 397" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 126, 375" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 130, 328" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 132, 145" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 132, 306" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 135, 349" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 136, 174" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 139, 416" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 143, 354" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 144, 318" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 144, 421" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 145, 417" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 147, 455" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 148, 198" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 151, 399" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 154, 298" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 155, 210" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 155, 264" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 161, 249" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 161, 436" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 162, 360" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 163, 349" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 166, 365" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 166, 430" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 166, 75" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 168, 244" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 169, 344" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 172, 277" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 180, 75" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 182, 264" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 182, 268" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 182, 299" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 2, 302" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 203, 314" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 210, 385" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 223, 139" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 226, 218" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 230, 329" value="2" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 232, 219" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 247, 384" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 253, 131" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 27, 60" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 285, 391" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 29, 55" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 294, 79" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 294, 80" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 315, 329" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 330, 175" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 362, 379" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 38, 53" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 406, 350" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 413, 483" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 437, 181" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 483, 367" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 49, 176" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 527, 431" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 61, 108" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 613, 394" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 79, 276" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 790, 308" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 849, 217" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 87, 461" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 91, 262" value="1" type="GuiResourceData"/>
+<property name="Vendingmachine.v, 991, 139" value="1" type="GuiResourceData"/>
+<property name="vendingmachinetb.v, 108, 163" value="1" type="GuiResourceData"/>
+<property name="vendingmachinetb.v, 157, 334" value="1" type="GuiResourceData"/>
+<property name="vendingmachinetb.v, 220, 223" value="1" type="GuiResourceData"/>
+<property name="vendingmachinetb.v, 260, 171" value="1" type="GuiResourceData"/>
+<property name="vendingmachinetb.v, 264, 266" value="1" type="GuiResourceData"/>
+<property name="vendingmachinetb.v, 29, 228" value="1" type="GuiResourceData"/>
+<property name="vendingmachinetb.v, 309, 354" value="1" type="GuiResourceData"/>
+<property name="vendingmachinetb.v, 310, 354" value="1" type="GuiResourceData"/>
+<property name="vendingmachinetb.v, 310, 355" value="1" type="GuiResourceData"/>
+<property name="vendingmachinetb.v, 34, 158" value="1" type="GuiResourceData"/>
+<property name="vendingmachinetb.v, 349, 340" value="1" type="GuiResourceData"/>
+<property name="vendingmachinetb.v, 375, 317" value="1" type="GuiResourceData"/>
+<property name="vendingmachinetb.v, 40, 146" value="1" type="GuiResourceData"/>
+<property name="vendingmachinetb.v, 445, 322" value="1" type="GuiResourceData"/>
+<property name="vendingmachinetb.v, 484, 341" value="1" type="GuiResourceData"/>
+<property name="vendingmachinetb.v, 554, 404" value="1" type="GuiResourceData"/>
+<property name="vendingmachinetb.v, 6, 154" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="65" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="57" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>
